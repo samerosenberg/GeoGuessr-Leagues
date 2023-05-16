@@ -1,0 +1,31 @@
+{
+    "name": "geoguessr-leagues",
+    "version": "1.0.0",
+    "description": "Dashboard for viewing Geoguessr league data",
+    "main": "server/index.ts",
+    "scripts": {
+        "start": "npx tsc && node dist/server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samerosenberg/GeoGuessr-Leagues.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/samerosenberg/GeoGuessr-Leagues/issues"
+    },
+    "homepage": "https://github.com/samerosenberg/GeoGuessr-Leagues#readme",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "@types/jest": "^29.5.1",
+        "@types/node": "^20.1.4",
+        "typescript": "^5.0.4"
+    }
+}
